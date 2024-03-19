@@ -9,9 +9,10 @@
 *{
     margin: 0;
     padding: 0;
-}
+} 
+ 
 
-html,body {
+ /* html,body {
     height: 100%;
     width: 100%
 }
@@ -47,7 +48,7 @@ html,body {
 #page1-content{
     height: 100%; 
    width: 100vw;
-   /* background-color: #0c0b0b5a; */
+    background-color: #0c0b0b5a; 
    color: aliceblue;
    position: relative;
    font-family: nb-pro;
@@ -78,50 +79,169 @@ h1{
 font-family: re-joy;
  font-weight: 300;
  font-size: 400px; 
-}
+}  */
 
-#page2 {
+#page2{
     height: 100vh;
-    width:100%;
-    background-color: #FAF8F3;
-    color: #0E0E0E;
-    display: flex;
-    flex-direction: column;
-    font-family: nb-pro;
+    width: 100vw;
+    
 }
-#page2>#nav {
-    display: flex;
-    padding: 2.8vw;
-    padding-bottom: 1vw;
-    height: 21vh;
-    align-items:end;
-    overflow: hidden;
-    font-family: nb-pro;
-    justify-content: space-between;
-    /* border-bottom: 1px solid #91908e; */
-}
-/* hr{
-    width: 94.4vw;
-    margin: 0 auto;
-    justify-content: center;
-} */
-#page2>#nav>.elem h1 {
-    align-items: baseline;
-    font-size: 1.67vw;
-    font-weight: 100;
-    color: #0E0E0E;
-    font-family: nb-pro;
-}
-#page2>.heading {
-    padding: 2.8;
+#page2 video{
+   object-fit: cover;  
+   width: 100vw;
+   height: 100vh; 
+   position:absolute;
    
 }
-#page2>.heading h1{
-    font-size: 4.2vw;
-    font-weight: 500;
-    color: #0E0E0E;
+#page2-txtcontent {
+    height: 100vh;
+    width: 100%; 
+    background-color: #16141400;
+    position: relative;
+    z-index: 10;
+}
+
+ nav{
+    height: 150px;
+    /* width: 1470px; */
+    /* width: 1441px; */
+    /* background-color: aqua; */
+    color: aliceblue;
     font-family: nb-pro;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap:1000px;
+    padding: 10px 25px;
+   
+}
+
+#page2-txtcontent  h1{
+   text-align: center;
+   margin-top: 8%;
+   color: aliceblue;
+   font-family: re-joy;
+   font-size: 400px;
+   font-weight: 200;
+   align-items: end;
+}
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #ff5f38;
+    border-radius:50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: nb-pro;
+    font-size: 20px;
+    font-weight:500;
+    transform: translate(-50%,-50%);
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #faf8f3;
+    
+}
+
+ #nav{
+    color: black;
+    /* background-color: blue; */
+    padding: 10px 80px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    font-family: nb-pro;
+    padding-top: 80px;
+   
+}
+h1{
+    font-weight: 100;
+}
+
+hr{
+    margin-left: 80px;
+    margin-right:80px;
+}
+
+#page3>.heading {
+    padding: 2.8vw;
+}
+#page3>.heading h1{
+    font-size:  4.2vw;
+    font-weight: 580;
+    font-family: nb-pro;
+    line-height: 1.1em;
 }
 #space {
     margin-left: 8vw;
 }
+
+
+#page4{
+    height: 130vh;
+    width: 100vw;
+    background-color: rgb(231, 224, 224);
+    position: relative;
+    padding: 3vw;
+}
+
+#page4-top{
+     text-align: center;
+   
+}
+#page4-top h4{
+    margin-bottom: 1vw;
+    font-size:17.6px ;
+    font-weight: 500;
+    font-family: nb-pro;
+}
+#page4-top h4 span{
+    font-size: 11.6px;
+    border: solid 1px black;
+    height: auto;
+    border-radius: 7px;
+    padding: 4px,10px;
+    background-color: black;
+    color: #faf8f3;
+}
+
+#page4-top h2{
+    font-size: 69px;
+    font-family: nb-pro;
+    font-weight: 500; 
+}
+#page4-elements{
+    margin-top: 130px;
+    height: 90vh;
+    width: 93.66vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    background-color:red;
+}
+#page4-elements .box{
+    height: 100%;
+    width: 33%;
+    background-color: aqua;
+    position: relative;
+   
+}
+#page4-elements .box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#page4-elements .box image{
+
+height: 100%;
+width: 33%;
+object-fit: cover;
+position: absolute;
+}
+

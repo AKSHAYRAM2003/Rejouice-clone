@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="abs tl:0 fit transform rotate:90deg rotate" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.25" fill="none" class="o:0.3 dasharray:302 dashoffset:604 (.in-view):dashoffset:400 (.in-view):tween:all,2.8s,easeOutSlow "/>
+                <circle cx="50" cy="50" r="49" stroke="#fff" stroke-width="0.15" fill="none" class="dasharray:302 dashoffset:302 (.in-view):dashoffset:100 (.in-view):tween:all,2.8s,easeOutSlow "/>
+            </svg>
